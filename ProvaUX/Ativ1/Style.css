@@ -1,0 +1,22 @@
+.columns{
+    display:flex;
+    color: aliceblue;
+}
+
+.column1{
+    background-color: rgb(55, 52, 56);
+    width: 70%;
+    height: 10%;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.column2{
+    background-color: rgb(114, 24, 24);
+    width: 30%;
+    height: 10%;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(to left, rgb(130, 73, 184), rgb(28, 134, 227)) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: rgb(90, 92, 95);
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    box-shadow: 2px 2px 15px rgba(66, 59, 59, 0.584);
+    border-radius: 2%;
+}
+
+.camp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+input{
+    border: none;
+    background-color: rgb(229, 229, 237);
+    border-radius: 3px;
+}
+
+
+button{
+    background-color: rgb(130, 73, 184);
+    color: aliceblue;
+    border-radius: 3px;
+    border: none;
+}
